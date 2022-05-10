@@ -5,16 +5,16 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, '-']
 
 # 가이드라인 4
-sentence1 = alphabet[7:9]
-# hi
-sentence2 = alphabet[-2] + alphabet[-12] + alphabet[-6] + alphabet[-13] + alphabet[6] + alphabet[1] + alphabet[4] + alphabet[4] + alphabet[-13]
-# youngbeen
-sentence3 = alphabet[2] + alphabet[-12] + alphabet[3] + alphabet[4]
-# code
+sentence1 = # 요소 가이드라인 5처럼 더하기 죄송해요 너무 노가다라 저는 안하고 싶어요
+# we are skhu likelion
+sentence2 = # 요소 가이드라인 5처럼 더하기 죄송해요 너무 노가다라 저는 안하고 싶어요
+# hack your life
+sentence3 = # 요소 가이드라인 5처럼 더하기 죄송해요 너무 노가다라 저는 안하고 싶어요
+# my name is youngbeen
 
-print(sentence1)
-print(sentence2)
-print(sentence3)
+print(sentence1) # -> 출력 : we are skhu likelion
+print(sentence2) # -> 출력 : hack your life
+print(sentence3) # -> 출력 : my name is youngbeen
 
 # 가이드라인 5
 birth = number[1] + number[-2] + number[-2] + number[0] + number[0] + number[1] + number[1] + number[1]
