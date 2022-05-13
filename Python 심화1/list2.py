@@ -14,3 +14,6 @@ print(List)
 # 리스트 삭제 -- 슬라이싱을 사용해서 3과 4를 삭제하고 print()문을 사용해 출력해주세요
 del List[2:4]
 print(List)
+
+L = [1, 2, 2, 3, 1]
+print(L.index(2))
