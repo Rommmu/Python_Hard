@@ -15,11 +15,11 @@ class Student:
         print("성별은 %s 이다." % self.sex)
         print("주소는 %s 이다." % self.address)
         print("전화번호는 %s 이다." % self.phone_number)
-        if (self.year == 1):
-            print("멋사 %d년차" % self.year)
+        if (self.year == "1"):
+            print("멋사 %s년차" % self.year)
             print("우와 아기사자다 !")
         else:
-            print("멋사 %d년차" % self.year)
+            print("멋사 %s년차" % self.year)
             print("우와 운영진이다 !")
 
 
@@ -38,7 +38,7 @@ while True:
     phone_number = input("전화번호를 입력하시오 (모를 때는 모른다 라고 입력.) : ")
     if (phone_number == "모른다"):
         phone_number = "None"
-    year = int(input("멋사 몇년차인가요? (단, 숫자로) : "))
+    year = input("멋사 몇년차인가요? (단, 숫자로) : ")
     Class_name = Student(name, grade, student_number, sex, address, phone_number, year)
     Class_name.introduce()
     print()
