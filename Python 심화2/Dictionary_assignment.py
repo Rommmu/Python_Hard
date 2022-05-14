@@ -3,11 +3,12 @@ Dic = {}
 while True:
         key = int(input("키를 입력해주세요: "))
         value = input("value를 입력해주세요: ")
-        if ((key == 0) and (value == "0")):
+        if ((key == 0) or (value == "종료")):
             print("그만")
             print(Dic)
             break
-        Dic[key] = value
+        else:
+            Dic[key] = value
 
 
 key_list = list(Dic.keys())
