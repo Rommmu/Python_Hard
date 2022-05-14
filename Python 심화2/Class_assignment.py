@@ -9,17 +9,17 @@ class Student:
         self.year = year
 
     def introduce(self):
-        print("이름은 %s 이다." % name)
-        print("학년은 %d 학년이다." % grade)
-        print("학번은 %d 이다." % student_number)
-        print("성별은 %s 이다." % sex)
-        print("주소는 %s 이다." % address)
-        print("전화번호는 %s 이다." % phone_number)
-        if (year == 1):
-            print("멋사 %d년차" % year)
+        print("이름은 %s 이다." % self.name)
+        print("학년은 %d 학년이다." % self.grade)
+        print("학번은 %d 이다." % self.student_number)
+        print("성별은 %s 이다." % self.sex)
+        print("주소는 %s 이다." % self.address)
+        print("전화번호는 %s 이다." % self.phone_number)
+        if (self.year == 1):
+            print("멋사 %d년차" % self.year)
             print("우와 아기사자다 !")
         else:
-            print("멋사 %d년차" % year)
+            print("멋사 %d년차" % self.year)
             print("우와 운영진이다 !")
 
 
