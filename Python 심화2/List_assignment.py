@@ -18,6 +18,6 @@ print(List)
 
 List.pop(0)
 print(List)
-List.insert(1, 2)
-List.insert(2, 3)
+List.insert(0, 2)
+List.insert(1, 3)
 print(List)
