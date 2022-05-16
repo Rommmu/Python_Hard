@@ -16,7 +16,8 @@ for x in List:
         List.remove(x)
 print(List)
 
-print(List.pop(0))
+List.pop(0)
+print(List)
 List.insert(1, 2)
 List.insert(2, 3)
 print(List)
